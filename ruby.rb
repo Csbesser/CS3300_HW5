@@ -40,7 +40,7 @@ arr2.max(2).each {|a| sum += a, " "}
 #define method hello
 
 def hello(name)
-    puts "Hello #{name}! How are you?"
+    "Hello #{name}! How are you?"
 end
 
 # 2.2
@@ -62,7 +62,36 @@ def starts_with_consonant?(s)
  #entered's binary number is a multiple of 4
 
 
-
- 
+ def binary_multiple_of_4?(s)
+    if (s) == "0" 
+        return true
+    end    
 
 # part 3 Object Oriented basics
+
+#first we need to create the class BookInStock
+
+class BookInStock
+
+    #we need to now initialize the different variables
+    #required; isbn (floating) price (attribute)
+
+    def initialize (isbn, price)
+
+        #create instance variables for isbn and price
+        @isbn = isbn
+        @price = price
+
+    end
+    
+    #next we will need to convert meethod that has price as a string
+    #and have it be converted into a value
+
+    def price_as_string(s)
+        puts s.tu_i
+    end
+
+    
+
+
+end #end of the BookInStockClass
