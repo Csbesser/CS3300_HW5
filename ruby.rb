@@ -1,3 +1,7 @@
+# This Assignment was to help demonstrate the fundamentals and understands of Ruby on Rails language
+
+
+
 # part 1 Arrays, Hashes and Enumerables
 
 # 1.1
